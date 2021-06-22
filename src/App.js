@@ -68,7 +68,7 @@ function App() {
           >
             {task} <span onClick={e => deleteTodo(e, _id)}>X</span>
           </li>
-        )): <p>No Todos Yet :(</p>}
+        )): <p>No Todo's here.</p>}
       </ul>
     </div>
   );

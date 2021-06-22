@@ -5,6 +5,7 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for? ###
 
 * Quick summary
+    A todo list app, you can get all the list, create a new task, update and delete them.
 * Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
@@ -12,9 +13,15 @@ This README would normally document whatever steps are necessary to get your app
 
 * Summary of set up
 * Configuration
+    run npm i & npm start
 * Dependencies
+    axios
 * Database configuration
 * How to run tests
+    GET all task on page loading
+    CREATE new task
+    Click on the task to UPDATE completed status
+    Click on the close icon to DELETE the task
 * Deployment instructions
 
 ### Contribution guidelines ###
@@ -26,4 +33,5 @@ This README would normally document whatever steps are necessary to get your app
 ### Who do I talk to? ###
 
 * Repo owner or admin
+    Deepak Senguttuvan
 * Other community or team contact
