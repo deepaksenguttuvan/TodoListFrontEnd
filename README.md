@@ -22,6 +22,10 @@ This README would normally document whatever steps are necessary to get your app
     CREATE new task
     Click on the task to UPDATE completed status
     Click on the close icon to DELETE the task
+
+    ALERTS:
+    * User is not allowed to repeat the task
+    
 * Deployment instructions
 
 ### Contribution guidelines ###

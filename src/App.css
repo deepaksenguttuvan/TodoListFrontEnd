@@ -1,14 +1,48 @@
-.completed {
-  text-decoration: line-through;
-  color: gray;
-}
-
 .App{
-  margin: 10rem auto;
-  width: 800px;
+  margin: 2rem auto;
+  width: 70%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   align-content: center;
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.inputBlock {
+  display: flex;
+}
+
+ul {
+  list-style-type: auto;
+}
+
+.completed {
+  color: grey;
+  background: lightgray;
+  text-decoration: none;
+}
+
+li {
+  color: black;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: 10px;
+  background: yellow;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

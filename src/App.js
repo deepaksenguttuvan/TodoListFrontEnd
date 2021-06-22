@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import APIHelper from "./APIHelper.js";
+import { FaPlusCircle, FaTrashAlt } from 'react-icons/fa';
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -47,7 +48,8 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <h1>ToDo List App</h1>
+      <div className="inputBlock">
         <input
           type="text"
           value={todo}
@@ -55,7 +57,7 @@ function App() {
           placeholder="Enter a todo"
         />
         <button type="button" onClick={createTodo}>
-          Add
+          <FaPlusCircle />
         </button>
       </div>
 
@@ -66,7 +68,7 @@ function App() {
             onClick={e => updateTodo(e, _id)}
             className={completed ? "completed" : ""}
           >
-            {task} <span onClick={e => deleteTodo(e, _id)}>X</span>
+            {++i} {task} <span onClick={e => deleteTodo(e, _id)}><FaTrashAlt /></span>
           </li>
         )): <p>No Todo's here.</p>}
       </ul>
